@@ -1,0 +1,18 @@
+.select2-container--default.select2-container--focus .select2-selection--multiple, 
+.select2-container--default.select2-container--focus .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-container .select2-selection--single
+{
+	min-height: 40px;
+}
+
+.card-sortable:empty::before, .card-sortable[data-empty="true"]::before {
+    content: "Drag Sub Item Kesini";
+    color: rgb(52, 52, 52);
+    font-style: italic;
+    display: block;
+    background-color: beige;
+    margin: 0 15px 15px;
+    padding: 10px;
+    border: 2px #ff6b00 dotted;
+}
